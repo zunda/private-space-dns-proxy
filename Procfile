@@ -1,1 +1,1 @@
-web: doh-httpproxy --port $PORT --listen-address 0.0.0.0
+web: doh-httpproxy --port $PORT --listen-address 0.0.0.0 --trusted

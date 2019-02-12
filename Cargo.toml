@@ -1,0 +1,19 @@
+[package]
+name = "doh-proxy"
+version = "0.1.10"
+authors = ["Frank Denis <github@pureftpd.org>"]
+description = "A DNS-over-HTTPS (DoH) proxy"
+keywords = ["dns","https","doh","proxy"]
+license = "MIT"
+homepage = "https://github.com/jedisct1/rust-doh"
+repository = "https://github.com/jedisct1/rust-doh"
+categories = ["asynchronous", "network-programming","command-line-utilities"]
+
+[dependencies]
+base64 = "0.9"
+clap = "2"
+futures = "0.1"
+hyper = "0.12"
+tokio = "0.1"
+tokio-current-thread = "0.1"
+tokio-timer = "0.2"
